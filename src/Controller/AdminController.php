@@ -21,7 +21,7 @@ class AdminController extends AbstractController
                 "nom"=>"agence1",
                 "telAgence"=>"24335154",
                 "adresseVille"=>"tunis",
-                "actions"=>"action1",
+         
 
             ),
             2=>array(
@@ -30,7 +30,7 @@ class AdminController extends AbstractController
                 "nom"=>"agence2",
                 "telAgence"=>"2555445",
                 "adresseVille"=>"Berline",
-                "actions"=>"action2",
+                
 
             ),
             8=>array(
@@ -39,7 +39,7 @@ class AdminController extends AbstractController
                 "nom"=>"agnece3",
                 "telAgence"=>"2455645",
                 "adresseVille"=>"Paris",
-                "actions"=>"action3",
+             
 
             ),
 
@@ -65,7 +65,7 @@ class AdminController extends AbstractController
                 "description"=>"tres puissante",
                 "nommbreDePlaces"=>"5",
                 "nomAgence"=>"agence1",
-                "actions"=>"action1",
+                
 
             ),
             array(
@@ -76,7 +76,7 @@ class AdminController extends AbstractController
                 "description"=>"tres pratique",
                 "nommbreDePlaces"=>"2",
                 "nomAgence"=>"agence2",
-                "actions"=>"action2",
+             
 
             ),
 
