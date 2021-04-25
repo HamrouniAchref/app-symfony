@@ -5,3 +5,15 @@ f166ef,::1,GET,http://localhost:8000/favicon.ico,1619310165,,404
 4e7253,::1,GET,http://localhost:8000/agence/consulter/1,1619310570,,200
 9bb4fd,::1,GET,http://localhost:8000/Admin,1619310574,,200
 3ef72f,::1,GET,http://localhost:8000/agence/modifier/3,1619310577,,200
+fb7afa,::1,GET,http://localhost:8000/,1619324423,,404
+60c37f,::1,GET,http://localhost:8000/admin,1619324427,20a845,404
+20a845,::1,GET,http://localhost:8000/admin,1619324427,,404
+77ecf6,::1,GET,http://localhost:8000/Admin,1619324432,bd2054,500
+bd2054,::1,GET,http://localhost:8000/Admin,1619324432,,500
+79eee1,::1,GET,http://localhost:8000/Admin,1619324492,2ba94b,500
+2ba94b,::1,GET,http://localhost:8000/Admin,1619324492,,500
+2fefad,::1,GET,http://localhost:8000/Admin,1619324509,3df090,500
+3df090,::1,GET,http://localhost:8000/Admin,1619324509,,500
+c5f0bb,::1,GET,http://localhost:8000/Admin,1619324651,a6bc2f,500
+a6bc2f,::1,GET,http://localhost:8000/Admin,1619324651,,500
+52f67d,::1,GET,http://localhost:8000/Admin,1619324682,,200
