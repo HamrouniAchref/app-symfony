@@ -5,6 +5,12 @@
 {% block body %}
 <div class="container mx-2 mt-5 ">
     <h1 class="pt-20">modifier une agence</h1>
+      {{ form_start(form) }}
+          {{ form_widget(form) }} 
+         <div> <button type="submit" class="btn btn-success">Modifier l'agence</button>   </div>
+  
+       {{ form_end(form) }}
+       
     <a href="{{ path('admin') }}" >page Admin</a>
    
     </div>

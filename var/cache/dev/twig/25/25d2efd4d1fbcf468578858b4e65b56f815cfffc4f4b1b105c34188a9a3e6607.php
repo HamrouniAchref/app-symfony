@@ -93,6 +93,53 @@ class __TwigTemplate_f44a3823a7ba0451fb5e0762586452f906207423207a3f3a85f0d654efc
         echo "\" >page Admin</a>
    
     </div>
+    <table class=\"table table-striped table-hover\">
+   <thead>
+        <tr>
+            <th>ID</th>
+            <th>Marque</th>
+            <th>Matricule</th>
+            <th>Couleur</th>
+            <th>Description</th>
+            <th>Nombre de places</th>
+            <th>Nom agence</th>
+        </tr>
+
+    </thead>
+
+        <tr>
+            <td>";
+        // line 26
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["voiture"]) || array_key_exists("voiture", $context) ? $context["voiture"] : (function () { throw new RuntimeError('Variable "voiture" does not exist.', 26, $this->source); })()), "id", [], "any", false, false, false, 26), "html", null, true);
+        echo "</td>
+            <td>";
+        // line 27
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["voiture"]) || array_key_exists("voiture", $context) ? $context["voiture"] : (function () { throw new RuntimeError('Variable "voiture" does not exist.', 27, $this->source); })()), "marque", [], "any", false, false, false, 27), "html", null, true);
+        echo "</td>
+            <td>";
+        // line 28
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["voiture"]) || array_key_exists("voiture", $context) ? $context["voiture"] : (function () { throw new RuntimeError('Variable "voiture" does not exist.', 28, $this->source); })()), "matricule", [], "any", false, false, false, 28), "html", null, true);
+        echo "</td>
+            <td>";
+        // line 29
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["voiture"]) || array_key_exists("voiture", $context) ? $context["voiture"] : (function () { throw new RuntimeError('Variable "voiture" does not exist.', 29, $this->source); })()), "couleur", [], "any", false, false, false, 29), "html", null, true);
+        echo "</td>
+             <td>";
+        // line 30
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["voiture"]) || array_key_exists("voiture", $context) ? $context["voiture"] : (function () { throw new RuntimeError('Variable "voiture" does not exist.', 30, $this->source); })()), "description", [], "any", false, false, false, 30), "html", null, true);
+        echo "</td>
+            <td>";
+        // line 31
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["voiture"]) || array_key_exists("voiture", $context) ? $context["voiture"] : (function () { throw new RuntimeError('Variable "voiture" does not exist.', 31, $this->source); })()), "nbrplace", [], "any", false, false, false, 31), "html", null, true);
+        echo "</td>
+          <td>";
+        // line 32
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["voiture"]) || array_key_exists("voiture", $context) ? $context["voiture"] : (function () { throw new RuntimeError('Variable "voiture" does not exist.', 32, $this->source); })()), "agence", [], "any", false, false, false, 32), "html", null, true);
+        echo "</td> 
+
+        </tr>
+
+</table>
 ";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
@@ -114,7 +161,7 @@ class __TwigTemplate_f44a3823a7ba0451fb5e0762586452f906207423207a3f3a85f0d654efc
 
     public function getDebugInfo()
     {
-        return array (  92 => 8,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+        return array (  137 => 32,  133 => 31,  129 => 30,  125 => 29,  121 => 28,  117 => 27,  113 => 26,  92 => 8,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -129,6 +176,32 @@ class __TwigTemplate_f44a3823a7ba0451fb5e0762586452f906207423207a3f3a85f0d654efc
       <a href=\"{{ path('admin') }}\" >page Admin</a>
    
     </div>
+    <table class=\"table table-striped table-hover\">
+   <thead>
+        <tr>
+            <th>ID</th>
+            <th>Marque</th>
+            <th>Matricule</th>
+            <th>Couleur</th>
+            <th>Description</th>
+            <th>Nombre de places</th>
+            <th>Nom agence</th>
+        </tr>
+
+    </thead>
+
+        <tr>
+            <td>{{voiture.id}}</td>
+            <td>{{voiture.marque}}</td>
+            <td>{{voiture.matricule}}</td>
+            <td>{{voiture.couleur}}</td>
+             <td>{{voiture.description}}</td>
+            <td>{{voiture.nbrplace}}</td>
+          <td>{{voiture.agence}}</td> 
+
+        </tr>
+
+</table>
 {% endblock %}
 ", "voiture/consulterVoiture.html.twig", "C:\\Users\\jhon\\Documents\\code\\app-symfony\\templates\\voiture\\consulterVoiture.html.twig");
     }

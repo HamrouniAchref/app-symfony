@@ -193,11 +193,11 @@ class __TwigTemplate_d5d32a372360917aa9cd7ab83206a5a8e415bb90f3018d2cf46306e5e52
             echo "</td>
             <td>";
             // line 58
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["voiture"], "nommbreDePlaces", [], "any", false, false, false, 58), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["voiture"], "NbrPlace", [], "any", false, false, false, 58), "html", null, true);
             echo "</td>
             <td>";
             // line 59
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["voiture"], "nomAgence", [], "any", false, false, false, 59), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["voiture"], "agence", [], "any", false, false, false, 59), "html", null, true);
             echo "</td>
             <td><a href=\"";
             // line 60
@@ -305,8 +305,8 @@ class __TwigTemplate_d5d32a372360917aa9cd7ab83206a5a8e415bb90f3018d2cf46306e5e52
             <td>{{voiture.marque}}</td>
             <td>{{voiture.couleur}}</td>
              <td>{{voiture.description}}</td>
-            <td>{{voiture.nommbreDePlaces}}</td>
-            <td>{{voiture.nomAgence}}</td>
+            <td>{{voiture.NbrPlace}}</td>
+            <td>{{voiture.agence}}</td>
             <td><a href=\"{{ path('consulterVoiture',{'id':voiture.id}) }}\" >voir</a>
                 <a href=\"{{ path('modifierVoiture',{'id':voiture.id}) }}\" >modifier</a>
                 <a href=\"{{ path('supprimerVoiture',{'id':voiture.id}) }}\" >supprimer</a></td>

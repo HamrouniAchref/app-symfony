@@ -5,6 +5,7 @@ namespace App\Entity;
 use Doctrine\ORM\Mapping as ORM;
 use App\Repository\AgenceRepository;
 use Doctrine\Common\Collections\ArrayCollection;
+use App\Entity\Voiture;
 
 /**
  * @ORM\Entity(repositoryClass=AgenceRepository::class)
@@ -33,7 +34,7 @@ class Agence
     /**
      * @return Collection|Voiture[]
      */
-    public function getVoitures(): Collection
+    public function getVoitures()
     {
         return $this->voitures;
     }
@@ -111,5 +112,9 @@ class Agence
         $this->ville = $ville;
 
         return $this;
+    }
+    public function __toString()
+    {
+        return $this->Nom;
     }
 }

@@ -91,6 +91,41 @@ class __TwigTemplate_b2aa0b53e08034bc4dd83c3cc8510e9f1c586c1279ed9a47c6acc2fae68
         // line 8
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("admin");
         echo "\" >page Admin</a>
+    <table class=\"table table-striped table-hover\">
+   <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nom</th>
+            <th>Telephone Agence</th>
+            <th>Adresse Ville</th>
+        </tr>
+
+    </thead>
+
+        <tr>
+            <td>";
+        // line 21
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["agence"]) || array_key_exists("agence", $context) ? $context["agence"] : (function () { throw new RuntimeError('Variable "agence" does not exist.', 21, $this->source); })()), "id", [], "any", false, false, false, 21), "html", null, true);
+        echo "</td>
+            <td>";
+        // line 22
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["agence"]) || array_key_exists("agence", $context) ? $context["agence"] : (function () { throw new RuntimeError('Variable "agence" does not exist.', 22, $this->source); })()), "nom", [], "any", false, false, false, 22), "html", null, true);
+        echo "</td>
+            <td>";
+        // line 23
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["agence"]) || array_key_exists("agence", $context) ? $context["agence"] : (function () { throw new RuntimeError('Variable "agence" does not exist.', 23, $this->source); })()), "telagence", [], "any", false, false, false, 23), "html", null, true);
+        echo "</td>
+            <td>";
+        // line 24
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["agence"]) || array_key_exists("agence", $context) ? $context["agence"] : (function () { throw new RuntimeError('Variable "agence" does not exist.', 24, $this->source); })()), "adresse", [], "any", false, false, false, 24), "html", null, true);
+        echo " ";
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["agence"]) || array_key_exists("agence", $context) ? $context["agence"] : (function () { throw new RuntimeError('Variable "agence" does not exist.', 24, $this->source); })()), "ville", [], "any", false, false, false, 24), "html", null, true);
+        echo "</td>
+
+
+        </tr>
+
+</table>
    
     </div>
 ";
@@ -114,7 +149,7 @@ class __TwigTemplate_b2aa0b53e08034bc4dd83c3cc8510e9f1c586c1279ed9a47c6acc2fae68
 
     public function getDebugInfo()
     {
-        return array (  92 => 8,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+        return array (  120 => 24,  116 => 23,  112 => 22,  108 => 21,  92 => 8,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -127,6 +162,27 @@ class __TwigTemplate_b2aa0b53e08034bc4dd83c3cc8510e9f1c586c1279ed9a47c6acc2fae68
 <div class=\"container mx-2 mt-5 \">
     <h1 class=\"pt-20\">consulter une agence</h1>
     <a href=\"{{ path('admin') }}\" >page Admin</a>
+    <table class=\"table table-striped table-hover\">
+   <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nom</th>
+            <th>Telephone Agence</th>
+            <th>Adresse Ville</th>
+        </tr>
+
+    </thead>
+
+        <tr>
+            <td>{{agence.id}}</td>
+            <td>{{agence.nom}}</td>
+            <td>{{agence.telagence}}</td>
+            <td>{{agence.adresse}} {{agence.ville}}</td>
+
+
+        </tr>
+
+</table>
    
     </div>
 {% endblock %}

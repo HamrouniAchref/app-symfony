@@ -87,8 +87,23 @@ class __TwigTemplate_522b462fcbfd102a0e861d2ac6d0254891bfb461e2d41dab31726e66f3d
         // line 6
         echo "<div class=\"container mx-2 mt-5 \">
     <h1 class=\"pt-20\">Ajouter une voiture</h1>
-   <a href=\"";
+      ";
         // line 8
+        echo         $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->renderBlock((isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new RuntimeError('Variable "form" does not exist.', 8, $this->source); })()), 'form_start');
+        echo "
+          ";
+        // line 9
+        echo $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->searchAndRenderBlock((isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new RuntimeError('Variable "form" does not exist.', 9, $this->source); })()), 'widget');
+        echo " 
+         <div> <button type=\"submit\" class=\"btn btn-success\">Ajouter</button>   </div>
+  
+       ";
+        // line 12
+        echo         $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->renderBlock((isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new RuntimeError('Variable "form" does not exist.', 12, $this->source); })()), 'form_end');
+        echo "
+       
+   <a href=\"";
+        // line 14
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("admin");
         echo "\" >page Admin</a>
     </div>
@@ -113,7 +128,7 @@ class __TwigTemplate_522b462fcbfd102a0e861d2ac6d0254891bfb461e2d41dab31726e66f3d
 
     public function getDebugInfo()
     {
-        return array (  92 => 8,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+        return array (  107 => 14,  102 => 12,  96 => 9,  92 => 8,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -125,6 +140,12 @@ class __TwigTemplate_522b462fcbfd102a0e861d2ac6d0254891bfb461e2d41dab31726e66f3d
 {% block body %}
 <div class=\"container mx-2 mt-5 \">
     <h1 class=\"pt-20\">Ajouter une voiture</h1>
+      {{ form_start(form) }}
+          {{ form_widget(form) }} 
+         <div> <button type=\"submit\" class=\"btn btn-success\">Ajouter</button>   </div>
+  
+       {{ form_end(form) }}
+       
    <a href=\"{{ path('admin') }}\" >page Admin</a>
     </div>
 {% endblock %}

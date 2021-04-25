@@ -2,8 +2,9 @@
 
 namespace App\Entity;
 
-use App\Repository\VoitureRepository;
+use App\Entity\Agence;
 use Doctrine\ORM\Mapping as ORM;
+use App\Repository\VoitureRepository;
 
 /**
  * @ORM\Entity(repositoryClass=VoitureRepository::class)
@@ -19,6 +20,8 @@ class Voiture
 
     /**
      * @ORM\ManyToOne(targetEntity="App\Entity\Agence", inversedBy="voitures")
+     * @ORM\JoinColumn(nullable=false)
+
      */
     private $agence;
 

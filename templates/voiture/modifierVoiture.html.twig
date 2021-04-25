@@ -4,7 +4,14 @@
 
 {% block body %}
 <div class="container mx-2 mt-5 ">
-    <h1 class="pt-20">modifier une voiture</h1>
+  <h1 class="pt-20">modifier une voiture</h1>
+{{ form_start(form) }}
+          {{ form_widget(form) }} 
+         <div> <button type="submit" class="btn btn-success">Modifier la voiture</button>   </div>
+  
+       {{ form_end(form) }}
+       
+  
       <a href="{{ path('admin') }}" >page Admin</a>
    
     </div>
