@@ -2,9 +2,11 @@
 
 namespace App\Controller;
 
-use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use App\Entity\Agence;
+use App\Form\AgenceType;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
 
 class AgenceController extends AbstractController
@@ -14,9 +16,12 @@ class AgenceController extends AbstractController
      */
     public function ajouterAgence(): Response
     {
-        
+        $agence = new Agence();
+      #  $form = $this.createFormBuilder($agence);
+      $form = $this->createForm(AgenceType::class, $agence);
+
         return $this->render('agence/ajouterAgence.html.twig', [
-         
+            'form' => $form->createView(),
         ]);
     }
     /**

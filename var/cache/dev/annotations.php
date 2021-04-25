@@ -85,6 +85,102 @@ return [[
 '%5B%5BC%5DApp%5CController%5CVoitureController%23modifierVoiture%5D%5B1%5D' => 2,
 '%5BApp%5CController%5CVoitureController%23supprimerVoiture%5D%5B1%5D' => 11,
 '%5B%5BC%5DApp%5CController%5CVoitureController%23supprimerVoiture%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CAgence%5D%5B1%5D' => 12,
+'%5B%5BC%5DApp%5CEntity%5CAgence%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CAgence%23__construct%5D%5B1%5D' => 1,
+'%5B%5BC%5DApp%5CEntity%5CAgence%23__construct%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CAgence%23getVoitures%5D%5B1%5D' => 1,
+'%5B%5BC%5DApp%5CEntity%5CAgence%23getVoitures%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CAgence%23getId%5D%5B1%5D' => 1,
+'%5B%5BC%5DApp%5CEntity%5CAgence%23getId%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CAgence%23getNom%5D%5B1%5D' => 1,
+'%5B%5BC%5DApp%5CEntity%5CAgence%23getNom%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CAgence%23setNom%5D%5B1%5D' => 1,
+'%5B%5BC%5DApp%5CEntity%5CAgence%23setNom%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CAgence%23getTelAgence%5D%5B1%5D' => 1,
+'%5B%5BC%5DApp%5CEntity%5CAgence%23getTelAgence%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CAgence%23setTelAgence%5D%5B1%5D' => 1,
+'%5B%5BC%5DApp%5CEntity%5CAgence%23setTelAgence%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CAgence%23getAdresse%5D%5B1%5D' => 1,
+'%5B%5BC%5DApp%5CEntity%5CAgence%23getAdresse%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CAgence%23setAdresse%5D%5B1%5D' => 1,
+'%5B%5BC%5DApp%5CEntity%5CAgence%23setAdresse%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CAgence%23getVille%5D%5B1%5D' => 1,
+'%5B%5BC%5DApp%5CEntity%5CAgence%23getVille%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CAgence%23setVille%5D%5B1%5D' => 1,
+'%5B%5BC%5DApp%5CEntity%5CAgence%23setVille%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CAgence%24id%5D%5B1%5D' => 13,
+'%5B%5BC%5DApp%5CEntity%5CAgence%24id%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CAgence%24voitures%5D%5B1%5D' => 14,
+'%5B%5BC%5DApp%5CEntity%5CAgence%24voitures%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CAgence%24Nom%5D%5B1%5D' => 15,
+'%5B%5BC%5DApp%5CEntity%5CAgence%24Nom%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CAgence%24tel_agence%5D%5B1%5D' => 16,
+'%5B%5BC%5DApp%5CEntity%5CAgence%24tel_agence%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CAgence%24adresse%5D%5B1%5D' => 16,
+'%5B%5BC%5DApp%5CEntity%5CAgence%24adresse%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CAgence%24ville%5D%5B1%5D' => 16,
+'%5B%5BC%5DApp%5CEntity%5CAgence%24ville%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CVoiture%5D%5B1%5D' => 17,
+'%5B%5BC%5DApp%5CEntity%5CVoiture%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CVoiture%23getAgence%5D%5B1%5D' => 1,
+'%5B%5BC%5DApp%5CEntity%5CVoiture%23getAgence%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CVoiture%23setAgence%5D%5B1%5D' => 1,
+'%5B%5BC%5DApp%5CEntity%5CVoiture%23setAgence%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CVoiture%23getId%5D%5B1%5D' => 1,
+'%5B%5BC%5DApp%5CEntity%5CVoiture%23getId%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CVoiture%23getMatricule%5D%5B1%5D' => 1,
+'%5B%5BC%5DApp%5CEntity%5CVoiture%23getMatricule%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CVoiture%23setMatricule%5D%5B1%5D' => 1,
+'%5B%5BC%5DApp%5CEntity%5CVoiture%23setMatricule%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CVoiture%23getMarque%5D%5B1%5D' => 1,
+'%5B%5BC%5DApp%5CEntity%5CVoiture%23getMarque%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CVoiture%23setMarque%5D%5B1%5D' => 1,
+'%5B%5BC%5DApp%5CEntity%5CVoiture%23setMarque%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CVoiture%23getCouleur%5D%5B1%5D' => 1,
+'%5B%5BC%5DApp%5CEntity%5CVoiture%23getCouleur%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CVoiture%23setCouleur%5D%5B1%5D' => 1,
+'%5B%5BC%5DApp%5CEntity%5CVoiture%23setCouleur%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CVoiture%23getCarburant%5D%5B1%5D' => 1,
+'%5B%5BC%5DApp%5CEntity%5CVoiture%23getCarburant%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CVoiture%23setCarburant%5D%5B1%5D' => 1,
+'%5B%5BC%5DApp%5CEntity%5CVoiture%23setCarburant%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CVoiture%23getNbrPlace%5D%5B1%5D' => 1,
+'%5B%5BC%5DApp%5CEntity%5CVoiture%23getNbrPlace%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CVoiture%23setNbrPlace%5D%5B1%5D' => 1,
+'%5B%5BC%5DApp%5CEntity%5CVoiture%23setNbrPlace%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CVoiture%23getDescription%5D%5B1%5D' => 1,
+'%5B%5BC%5DApp%5CEntity%5CVoiture%23getDescription%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CVoiture%23setDescription%5D%5B1%5D' => 1,
+'%5B%5BC%5DApp%5CEntity%5CVoiture%23setDescription%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CVoiture%23getDisponibilite%5D%5B1%5D' => 1,
+'%5B%5BC%5DApp%5CEntity%5CVoiture%23getDisponibilite%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CVoiture%23setDisponibilite%5D%5B1%5D' => 1,
+'%5B%5BC%5DApp%5CEntity%5CVoiture%23setDisponibilite%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CVoiture%23getDateMiseEnCirculation%5D%5B1%5D' => 1,
+'%5B%5BC%5DApp%5CEntity%5CVoiture%23getDateMiseEnCirculation%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CVoiture%23setDateMiseEnCirculation%5D%5B1%5D' => 1,
+'%5B%5BC%5DApp%5CEntity%5CVoiture%23setDateMiseEnCirculation%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CVoiture%24id%5D%5B1%5D' => 13,
+'%5B%5BC%5DApp%5CEntity%5CVoiture%24id%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CVoiture%24agence%5D%5B1%5D' => 18,
+'%5B%5BC%5DApp%5CEntity%5CVoiture%24agence%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CVoiture%24Matricule%5D%5B1%5D' => 19,
+'%5B%5BC%5DApp%5CEntity%5CVoiture%24Matricule%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CVoiture%24Marque%5D%5B1%5D' => 16,
+'%5B%5BC%5DApp%5CEntity%5CVoiture%24Marque%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CVoiture%24Couleur%5D%5B1%5D' => 16,
+'%5B%5BC%5DApp%5CEntity%5CVoiture%24Couleur%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CVoiture%24Carburant%5D%5B1%5D' => 16,
+'%5B%5BC%5DApp%5CEntity%5CVoiture%24Carburant%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CVoiture%24NbrPlace%5D%5B1%5D' => 20,
+'%5B%5BC%5DApp%5CEntity%5CVoiture%24NbrPlace%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CVoiture%24Description%5D%5B1%5D' => 21,
+'%5B%5BC%5DApp%5CEntity%5CVoiture%24Description%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CVoiture%24Disponibilite%5D%5B1%5D' => 22,
+'%5B%5BC%5DApp%5CEntity%5CVoiture%24Disponibilite%5D%5B1%5D' => 2,
+'%5BApp%5CEntity%5CVoiture%24dateMiseEnCirculation%5D%5B1%5D' => 23,
+'%5B%5BC%5DApp%5CEntity%5CVoiture%24dateMiseEnCirculation%5D%5B1%5D' => 2,
 '%5BDoctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController%5D%5B1%5D' => 1,
 '%5B%5BC%5DDoctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController%5D%5B1%5D' => 2,
 '%5BDoctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController%23setContainer%5D%5B1%5D' => 1,
@@ -626,7 +722,7 @@ return [[
 
 0 => 'N;',
 1 => [],
-2 => 1619310802,
+2 => 1619325783,
 3 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
@@ -816,6 +912,247 @@ return [[
                 ],
                 'name' => [
                     'supprimerVoiture',
+                ],
+            ],
+        ],
+        [
+            $o[0],
+        ],
+        []
+    );
+},
+12 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Entity'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Entity')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'repositoryClass' => [
+                    'App\\Repository\\AgenceRepository',
+                ],
+            ],
+        ],
+        [
+            $o[0],
+        ],
+        []
+    );
+},
+13 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Id'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Id')),
+            clone ($p['Doctrine\\ORM\\Mapping\\GeneratedValue'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\GeneratedValue')),
+            clone ($p['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'type' => [
+                    2 => 'integer',
+                ],
+            ],
+        ],
+        [
+            $o[0],
+            $o[1],
+            $o[2],
+        ],
+        []
+    );
+},
+14 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\OneToMany'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\OneToMany')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'mappedBy' => [
+                    'agence',
+                ],
+                'targetEntity' => [
+                    'App\\Entity\\Voiture',
+                ],
+            ],
+        ],
+        [
+            $o[0],
+        ],
+        []
+    );
+},
+15 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'length' => [
+                    300,
+                ],
+            ],
+        ],
+        [
+            $o[0],
+        ],
+        []
+    );
+},
+16 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'length' => [
+                    255,
+                ],
+            ],
+        ],
+        [
+            $o[0],
+        ],
+        []
+    );
+},
+17 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Entity'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Entity')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'repositoryClass' => [
+                    'App\\Repository\\VoitureRepository',
+                ],
+            ],
+        ],
+        [
+            $o[0],
+        ],
+        []
+    );
+},
+18 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\ManyToOne'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ManyToOne')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'targetEntity' => [
+                    'App\\Entity\\Agence',
+                ],
+                'inversedBy' => [
+                    'voitures',
+                ],
+            ],
+        ],
+        [
+            $o[0],
+        ],
+        []
+    );
+},
+19 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'length' => [
+                    255,
+                ],
+                'nullable' => [
+                    true,
+                ],
+            ],
+        ],
+        [
+            $o[0],
+        ],
+        []
+    );
+},
+20 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'type' => [
+                    'integer',
+                ],
+            ],
+        ],
+        [
+            $o[0],
+        ],
+        []
+    );
+},
+21 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'length' => [
+                    600,
+                ],
+            ],
+        ],
+        [
+            $o[0],
+        ],
+        []
+    );
+},
+22 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'type' => [
+                    'boolean',
+                ],
+            ],
+        ],
+        [
+            $o[0],
+        ],
+        []
+    );
+},
+23 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
+        ],
+        null,
+        [
+            'stdClass' => [
+                'type' => [
+                    'date',
                 ],
             ],
         ],

@@ -87,8 +87,26 @@ class __TwigTemplate_c65646de306df2d44d49657697174814f73fd27cb1392c37e2468b6d87b
         // line 6
         echo "<div class=\"container mx-2 mt-5 \">
     <h1 class=\"pt-20\">Ajouter une agence</h1>
+
+       ";
+        // line 9
+        echo         $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->renderBlock((isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new RuntimeError('Variable "form" does not exist.', 9, $this->source); })()), 'form_start');
+        echo "
+          ";
+        // line 10
+        echo $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->searchAndRenderBlock((isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new RuntimeError('Variable "form" does not exist.', 10, $this->source); })()), 'widget');
+        echo " 
+         <div> <button type=\"submit\" class=\"btn btn-success\">Ajouter</button>   </div>
+  
+       ";
+        // line 13
+        echo         $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->renderBlock((isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new RuntimeError('Variable "form" does not exist.', 13, $this->source); })()), 'form_end');
+        echo "
+       
+      
+
     <a href=\"";
-        // line 8
+        // line 17
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("admin");
         echo "\" >page Admin</a>
    
@@ -114,7 +132,7 @@ class __TwigTemplate_c65646de306df2d44d49657697174814f73fd27cb1392c37e2468b6d87b
 
     public function getDebugInfo()
     {
-        return array (  92 => 8,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+        return array (  110 => 17,  103 => 13,  97 => 10,  93 => 9,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -126,6 +144,15 @@ class __TwigTemplate_c65646de306df2d44d49657697174814f73fd27cb1392c37e2468b6d87b
 {% block body %}
 <div class=\"container mx-2 mt-5 \">
     <h1 class=\"pt-20\">Ajouter une agence</h1>
+
+       {{ form_start(form) }}
+          {{ form_widget(form) }} 
+         <div> <button type=\"submit\" class=\"btn btn-success\">Ajouter</button>   </div>
+  
+       {{ form_end(form) }}
+       
+      
+
     <a href=\"{{ path('admin') }}\" >page Admin</a>
    
     </div>

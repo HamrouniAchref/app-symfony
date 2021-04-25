@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '14d0aa2fe979ff16e1f335802e83bc9cc1d52d8e',
+    'reference' => '06036987c5ddfa3745dffa1021bc3ebbaeb8070f',
     'name' => '__root__',
   ),
   'versions' => 
@@ -18,7 +18,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '14d0aa2fe979ff16e1f335802e83bc9cc1d52d8e',
+      'reference' => '06036987c5ddfa3745dffa1021bc3ebbaeb8070f',
     ),
     'composer/package-versions-deprecated' => 
     array (
@@ -182,6 +182,169 @@
       ),
       'reference' => '121af47c9aee9c03031bdeca3fac0540f59aa5c3',
     ),
+    'guzzle/batch' => 
+    array (
+      'replaced' => 
+      array (
+        0 => 'v3.8.1',
+      ),
+    ),
+    'guzzle/cache' => 
+    array (
+      'replaced' => 
+      array (
+        0 => 'v3.8.1',
+      ),
+    ),
+    'guzzle/common' => 
+    array (
+      'replaced' => 
+      array (
+        0 => 'v3.8.1',
+      ),
+    ),
+    'guzzle/guzzle' => 
+    array (
+      'pretty_version' => 'v3.8.1',
+      'version' => '3.8.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '4de0618a01b34aa1c8c33a3f13f396dcd3882eba',
+    ),
+    'guzzle/http' => 
+    array (
+      'replaced' => 
+      array (
+        0 => 'v3.8.1',
+      ),
+    ),
+    'guzzle/inflection' => 
+    array (
+      'replaced' => 
+      array (
+        0 => 'v3.8.1',
+      ),
+    ),
+    'guzzle/iterator' => 
+    array (
+      'replaced' => 
+      array (
+        0 => 'v3.8.1',
+      ),
+    ),
+    'guzzle/log' => 
+    array (
+      'replaced' => 
+      array (
+        0 => 'v3.8.1',
+      ),
+    ),
+    'guzzle/parser' => 
+    array (
+      'replaced' => 
+      array (
+        0 => 'v3.8.1',
+      ),
+    ),
+    'guzzle/plugin' => 
+    array (
+      'replaced' => 
+      array (
+        0 => 'v3.8.1',
+      ),
+    ),
+    'guzzle/plugin-async' => 
+    array (
+      'replaced' => 
+      array (
+        0 => 'v3.8.1',
+      ),
+    ),
+    'guzzle/plugin-backoff' => 
+    array (
+      'replaced' => 
+      array (
+        0 => 'v3.8.1',
+      ),
+    ),
+    'guzzle/plugin-cache' => 
+    array (
+      'replaced' => 
+      array (
+        0 => 'v3.8.1',
+      ),
+    ),
+    'guzzle/plugin-cookie' => 
+    array (
+      'replaced' => 
+      array (
+        0 => 'v3.8.1',
+      ),
+    ),
+    'guzzle/plugin-curlauth' => 
+    array (
+      'replaced' => 
+      array (
+        0 => 'v3.8.1',
+      ),
+    ),
+    'guzzle/plugin-error-response' => 
+    array (
+      'replaced' => 
+      array (
+        0 => 'v3.8.1',
+      ),
+    ),
+    'guzzle/plugin-history' => 
+    array (
+      'replaced' => 
+      array (
+        0 => 'v3.8.1',
+      ),
+    ),
+    'guzzle/plugin-log' => 
+    array (
+      'replaced' => 
+      array (
+        0 => 'v3.8.1',
+      ),
+    ),
+    'guzzle/plugin-md5' => 
+    array (
+      'replaced' => 
+      array (
+        0 => 'v3.8.1',
+      ),
+    ),
+    'guzzle/plugin-mock' => 
+    array (
+      'replaced' => 
+      array (
+        0 => 'v3.8.1',
+      ),
+    ),
+    'guzzle/plugin-oauth' => 
+    array (
+      'replaced' => 
+      array (
+        0 => 'v3.8.1',
+      ),
+    ),
+    'guzzle/service' => 
+    array (
+      'replaced' => 
+      array (
+        0 => 'v3.8.1',
+      ),
+    ),
+    'guzzle/stream' => 
+    array (
+      'replaced' => 
+      array (
+        0 => 'v3.8.1',
+      ),
+    ),
     'laminas/laminas-code' => 
     array (
       'pretty_version' => '4.0.0',
@@ -208,6 +371,15 @@
       array (
       ),
       'reference' => '6cccbddfcfc742eb02158d6137ca5687d92cee32',
+    ),
+    'mikemccabe/json-patch-php' => 
+    array (
+      'pretty_version' => '0.1.0',
+      'version' => '0.1.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'b3af30a6aec7f6467c773cd49b2d974a70f7c0d4',
     ),
     'monolog/monolog' => 
     array (
@@ -376,6 +548,15 @@
       array (
         0 => '1.0',
       ),
+    ),
+    'rackspace/php-opencloud' => 
+    array (
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '062bf8bb3432c6e0f68e21a2f6dd5f02f2fc19d7',
     ),
     'sensio/framework-extra-bundle' => 
     array (
@@ -582,12 +763,12 @@
     ),
     'symfony/form' => 
     array (
-      'pretty_version' => 'v5.2.5',
-      'version' => '5.2.5.0',
+      'pretty_version' => 'v5.2.6',
+      'version' => '5.2.6.0',
       'aliases' => 
       array (
       ),
-      'reference' => '66fecedebe5c5fc6dc9553e8f311342ac711ed3a',
+      'reference' => '40fbaed8d4238e37fdd1fecce8e0678a3eb0e48b',
     ),
     'symfony/framework-bundle' => 
     array (
@@ -712,6 +893,15 @@
       array (
       ),
       'reference' => '5d0f633f9bbfcf7ec642a2b5037268e61b0a62ce',
+    ),
+    'symfony/orm-pack' => 
+    array (
+      'pretty_version' => 'v2.1.0',
+      'version' => '2.1.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '357f6362067b1ebb94af321b79f8939fc9118751',
     ),
     'symfony/phpunit-bridge' => 
     array (

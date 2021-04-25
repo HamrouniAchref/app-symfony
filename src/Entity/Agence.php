@@ -2,8 +2,9 @@
 
 namespace App\Entity;
 
-use App\Repository\AgenceRepository;
 use Doctrine\ORM\Mapping as ORM;
+use App\Repository\AgenceRepository;
+use Doctrine\Common\Collections\ArrayCollection;
 
 /**
  * @ORM\Entity(repositoryClass=AgenceRepository::class)

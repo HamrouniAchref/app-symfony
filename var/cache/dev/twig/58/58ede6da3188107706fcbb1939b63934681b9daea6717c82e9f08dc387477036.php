@@ -123,7 +123,7 @@ class __TwigTemplate_d5d32a372360917aa9cd7ab83206a5a8e415bb90f3018d2cf46306e5e52
             echo "</td>
             <td>";
             // line 25
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["agence"], "adresseVille", [], "any", false, false, false, 25), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["agence"], "adresse", [], "any", false, false, false, 25), "html", null, true);
             echo "</td>
             <td><a href=\"";
             // line 26
@@ -272,7 +272,7 @@ class __TwigTemplate_d5d32a372360917aa9cd7ab83206a5a8e415bb90f3018d2cf46306e5e52
             <td>{{agence.id}}</td>
             <td>{{agence.nom}}</td>
             <td>{{agence.telAgence}}</td>
-            <td>{{agence.adresseVille}}</td>
+            <td>{{agence.adresse}}</td>
             <td><a href=\"{{ path('consulterAgence',{'id':agence.id}) }}\" >voir</a>
                 <a href=\"{{ path('modifierAgence',{'id':agence.id}) }}\" >modifier</a>
                 <a href=\"{{ path('supprimerAgence',{'id':agence.id}) }}\" >supprimer</a></td>
