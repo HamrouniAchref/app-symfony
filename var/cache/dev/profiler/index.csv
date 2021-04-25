@@ -1,0 +1,7 @@
+6af7d4,::1,GET,http://localhost:8000/,1619310162,,404
+f5e1a6,::1,GET,http://localhost:8000/favicon.ico,1619310165,f166ef,404
+f166ef,::1,GET,http://localhost:8000/favicon.ico,1619310165,,404
+8ed892,::1,GET,http://localhost:8000/Admin,1619310208,,200
+4e7253,::1,GET,http://localhost:8000/agence/consulter/1,1619310570,,200
+9bb4fd,::1,GET,http://localhost:8000/Admin,1619310574,,200
+3ef72f,::1,GET,http://localhost:8000/agence/modifier/3,1619310577,,200
